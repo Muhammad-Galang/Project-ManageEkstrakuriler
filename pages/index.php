@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <title>Startmin - Bootstrap Admin Theme</title>
+    <title>Startmin - Bootstrap Admin Theme</title>
 
-        <!-- Bootstrap Core CSS -->
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- MetisMenu CSS -->
-        <link href="../css/metisMenu.min.css" rel="stylesheet">
+    <!-- MetisMenu CSS -->
+    <link href="../css/metisMenu.min.css" rel="stylesheet">
 
-        <!-- Timeline CSS -->
-        <link href="../css/timeline.css" rel="stylesheet">
+    <!-- Timeline CSS -->
+    <link href="../css/timeline.css" rel="stylesheet">
 
-        <!-- Custom CSS -->
-        <link href="../css/startmin.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../css/startmin.css" rel="stylesheet">
 
-        <!-- Morris Charts CSS -->
-        <link href="../css/morris.css" rel="stylesheet">
+    <!-- Morris Charts CSS -->
+    <link href="../css/morris.css" rel="stylesheet">
 
-        <!-- Custom Fonts -->
-        <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Custom Fonts -->
+    <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+    <![endif]-->
     </head>
 
     <body>
@@ -43,7 +43,7 @@
             <!-- Navigation -->
             <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">Startmin</a>
+                    <a class="navbar-brand" href="index.php">Startmin</a>
                 </div>
 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -125,7 +125,7 @@
                             </li>
                             <li class="divider"></li>
                             <li>
-                                <a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                                <a href="login.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                             </li>
                         </ul>
                     </li>
@@ -148,46 +148,46 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="index.html" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="DataUser.php" class="active"><i class="fa fa-user fa-fw"></i> Data User</a>
+                            <a href="index.php" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="flot.html">Flot Charts</a>
+                                    <a href="flot.php">Flot Charts</a>
                                 </li>
                                 <li>
-                                    <a href="morris.html">Morris.js Charts</a>
+                                    <a href="morris.php">Morris.js Charts</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
-                        <li>
-                            <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
+                        <li><a href="tables.php"><i class="fa fa-table fa-fw"></i> Tables</a>
                         </li>
                         <li>
-                            <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
+                            <a href="forms.php"><i class="fa fa-edit fa-fw"></i> Forms</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="panels-wells.html">Panels and Wells</a>
+                                    <a href="panels-wells.php">Panels and Wells</a>
                                 </li>
                                 <li>
-                                    <a href="buttons.html">Buttons</a>
+                                    <a href="buttons.php">Buttons</a>
                                 </li>
                                 <li>
-                                    <a href="notifications.html">Notifications</a>
+                                    <a href="notifications.php">Notifications</a>
                                 </li>
                                 <li>
-                                    <a href="typography.html">Typography</a>
+                                    <a href="typography.php">Typography</a>
                                 </li>
                                 <li>
-                                    <a href="icons.html"> Icons</a>
+                                    <a href="icons.php"> Icons</a>
                                 </li>
                                 <li>
-                                    <a href="grid.html">Grid</a>
+                                    <a href="grid.php">Grid</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -226,10 +226,10 @@
                             <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="blank.html">Blank Page</a>
+                                    <a href="blank.php">Blank Page</a>
                                 </li>
                                 <li>
-                                    <a href="login.html">Login Page</a>
+                                    <a href="login.php">Login Page</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -504,7 +504,7 @@
                                                         cum
                                                         veniam excepturi. Maiores praesentium, porro voluptas suscipit facere
                                                         rem
-                                                        dicta, debitis.</p>
+                                                    dicta, debitis.</p>
                                                 </div>
                                             </div>
                                         </li>
@@ -520,13 +520,13 @@
                                                         quibusdam, tenetur commodi provident cumque magni voluptatem libero,
                                                         quis
                                                         rerum. Fugiat esse debitis optio, tempore. Animi officiis alias, officia
-                                                        repellendus.</p>
+                                                    repellendus.</p>
 
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
                                                         maiores
                                                         odit qui est tempora eos, nostrum provident explicabo dignissimos
                                                         debitis
-                                                        vel! Adipisci eius voluptates, ad aut recusandae minus eaque facere.</p>
+                                                    vel! Adipisci eius voluptates, ad aut recusandae minus eaque facere.</p>
                                                 </div>
                                             </div>
                                         </li>
@@ -541,7 +541,7 @@
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
                                                         numquam
                                                         facilis enim eaque, tenetur nam id qui vel velit similique nihil iure
-                                                        molestias aliquam, voluptatem totam quaerat, magni commodi quisquam.</p>
+                                                    molestias aliquam, voluptatem totam quaerat, magni commodi quisquam.</p>
                                                 </div>
                                             </div>
                                         </li>
@@ -555,7 +555,7 @@
                                                         quaerat asperiores sapiente, eligendi, nihil. Itaque quos, alias
                                                         sapiente
                                                         rerum quas odit! Aperiam officiis quidem delectus libero, omnis ut
-                                                        debitis!</p>
+                                                    debitis!</p>
                                                 </div>
                                             </div>
                                         </li>
@@ -570,7 +570,7 @@
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis minus
                                                         modi
                                                         quam ipsum alias at est molestiae excepturi delectus nesciunt, quibusdam
-                                                        debitis amet, beatae consequuntur impedit nulla qui! Laborum, atque.</p>
+                                                    debitis amet, beatae consequuntur impedit nulla qui! Laborum, atque.</p>
                                                     <hr>
                                                     <div class="btn-group">
                                                         <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
@@ -601,7 +601,7 @@
                                                         quibusdam. Iure expedita, incidunt unde quis nam! Quod, quisquam.
                                                         Officia
                                                         quam qui adipisci quas consequuntur nostrum sequi. Consequuntur,
-                                                        commodi.</p>
+                                                    commodi.</p>
                                                 </div>
                                             </div>
                                         </li>
@@ -618,7 +618,7 @@
                                                         quaerat tempore officia voluptas debitis consectetur culpa amet,
                                                         accusamus
                                                         dolorum fugiat, animi dicta aperiam, enim incidunt quisquam maxime neque
-                                                        eaque.</p>
+                                                    eaque.</p>
                                                 </div>
                                             </div>
                                         </li>
@@ -742,10 +742,10 @@
                                 <div class="panel-body">
                                     <ul class="chat">
                                         <li class="left clearfix">
-                                                <span class="chat-img pull-left">
-                                                    <img src="http://via.placeholder.com/50/55C1E7/fff" alt="User Avatar"
-                                                         class="img-circle"/>
-                                                </span>
+                                            <span class="chat-img pull-left">
+                                                <img src="http://via.placeholder.com/50/55C1E7/fff" alt="User Avatar"
+                                                class="img-circle"/>
+                                            </span>
 
                                             <div class="chat-body clearfix">
                                                 <div class="header">
@@ -761,10 +761,10 @@
                                             </div>
                                         </li>
                                         <li class="right clearfix">
-                                                <span class="chat-img pull-right">
-                                                    <img src="http://via.placeholder.com/50/FA6F57/fff" alt="User Avatar"
-                                                         class="img-circle"/>
-                                                </span>
+                                            <span class="chat-img pull-right">
+                                                <img src="http://via.placeholder.com/50/FA6F57/fff" alt="User Avatar"
+                                                class="img-circle"/>
+                                            </span>
 
                                             <div class="chat-body clearfix">
                                                 <div class="header">
@@ -780,10 +780,10 @@
                                             </div>
                                         </li>
                                         <li class="left clearfix">
-                                                <span class="chat-img pull-left">
-                                                    <img src="http://via.placeholder.com/50/55C1E7/fff" alt="User Avatar"
-                                                         class="img-circle"/>
-                                                </span>
+                                            <span class="chat-img pull-left">
+                                                <img src="http://via.placeholder.com/50/55C1E7/fff" alt="User Avatar"
+                                                class="img-circle"/>
+                                            </span>
 
                                             <div class="chat-body clearfix">
                                                 <div class="header">
@@ -799,10 +799,10 @@
                                             </div>
                                         </li>
                                         <li class="right clearfix">
-                                                <span class="chat-img pull-right">
-                                                    <img src="http://via.placeholder.com/50/FA6F57/fff" alt="User Avatar"
-                                                         class="img-circle"/>
-                                                </span>
+                                            <span class="chat-img pull-right">
+                                                <img src="http://via.placeholder.com/50/FA6F57/fff" alt="User Avatar"
+                                                class="img-circle"/>
+                                            </span>
 
                                             <div class="chat-body clearfix">
                                                 <div class="header">
@@ -864,4 +864,4 @@
 
     </body>
 
-</html>
+    </html>
